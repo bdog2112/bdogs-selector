@@ -9,7 +9,9 @@
 # https://download.blender.org/release/Blender2.93/
 #
 # VERSION HISTORY:
-# RevG
+# RevH aka 2.93.1
+# Added a fix to the preferences init function so that the addon would successfully load in Blender v4.4 and v4.5. However, be advised that the addon has not been fully updated. Technically, it's only fully compatible with v2.93.
+# RevG aka 2.93
 # This iteration adds Render Engine to the Outliner. Albeit, in a limited
 # fashion. More than anything, this was a test to see if this location felt
 # useful. After some evaluation, it felt unnecessary and it will probably be
@@ -243,7 +245,8 @@ class addon_utils():
 
 class addon_prefs(AddonPreferences):
     bl_idname = __name__
-    def __init__(self):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
         print('init')
 
     #Preferences Panel functions

@@ -16,7 +16,7 @@ In the spirit of progress, I personally recommend enabling the render engine sel
 
 **REQUIREMENTS:**
 
-This addon was developed for Blender 2.93 LTS. It hasn't been updated to support more recent versions. Hence, caveat emptor. That said, it seems to work fine with newer versions including 3.6 LTS and 4.3. ***USE AT YOUR OWN RISK.*** 
+This addon was developed for Blender 2.93 LTS. It hasn't been updated to support more recent versions. Hence, caveat emptor. That said, it seems to work fine with newer versions including 3.6 LTS and 4.5 LTS. ***USE AT YOUR OWN RISK.*** 
  
 **LIMITATIONS:**
 
