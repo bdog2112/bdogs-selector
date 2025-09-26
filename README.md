@@ -26,7 +26,13 @@ In the Outliner, the selector is only displayed in "View Layer" display mode. It
 
 **HOW TO INSTALL:**
 
-Save "bdogs_selector.py" to your desktop. Then, open Blender and go to "Settings>Add-ons". In older versions of Blender, you can simply click "Install" and install the file you saved to your desktop . In newer Blender versions, click the chevron arrow pulldown menu in the upper right corner of the Add-ons panel and choose "Install from disk". Then, install the file from your desktop.
+Click the green "Code" button at the top center of the page and choose "Download ZIP". Alternatively, Navigate to "Releases>Tags" in the right-hand panel and download the zip file for the latest tag. THEN, extract "bdogs_selector.py" to your desktop. Next, open Blender, go to "Settings>Add-ons" and...
+
+In older versions of Blender, simply click "Install" and install the file from your desktop.
+
+In newer Blender versions, click the chevron arrow pulldown menu in the upper right corner of the Add-ons panel and choose "Install from disk". Then, install the file from your desktop.
+
+Finally, enable the checkbox next to the newly installed addon in the Add-ons panel.
 
 **ORIGINAL SOURCE CODE:**
 
