@@ -14,17 +14,17 @@ Version 2.8 was one of the most important Blender releases and it represented a 
 
 In the spirit of progress, I personally recommend enabling the render engine selector in the Properties panel _header_ and disabling it in other locations. This helps to reinforce the muscle memory of going to the Properties panel, which is where the selector is currently buried. But, it adds the convenience of instant visibility and accessibility without having to switch to the Render tab.
 
-**REQUIREMENTS:**
+## REQUIREMENTS:
 
 This addon was developed for Blender 2.93 LTS. It hasn't been updated to support more recent versions. Hence, caveat emptor. That said, it seems to work fine with newer versions including 3.6 LTS and 4.5 LTS. ***USE AT YOUR OWN RISK.*** 
  
-**LIMITATIONS:**
+## LIMITATIONS:
 
 Render engine selector in the Properties>Render tab cannot be hidden.
 
 In the Outliner, the selector is only displayed in "View Layer" display mode. It does not display in any of the other display modes (i.e Scenes, Blender File, Video Sequencer, etc...). However, additional development could add it to those modes, as well.
 
-**HOW TO INSTALL:**
+## HOW TO INSTALL:
 
 Click the green "Code" button at the top center of the page and choose "Download ZIP". Alternatively, Navigate to "Releases>Tags" in the right-hand panel and download the zip file for the latest tag. **THEN**, extract "bdogs_selector.py" to your desktop. Next, open Blender, go to "Settings>Add-ons" and...
 
@@ -34,14 +34,14 @@ In newer Blender versions, click the chevron arrow pulldown menu in the upper ri
 
 Finally, enable the checkbox next to the newly installed addon in the Add-ons panel.
 
-**ORIGINAL SOURCE CODE:**
+## ORIGINAL SOURCE CODE:
 
 This addon was derived from Blender 2.93 whose original Python source code is included as part of the Blender application install. The full application source code is also available on GitHub.
 
-**Application Installer:**
+### Application Installer:
 
 https://download.blender.org/release/Blender2.93/
 
-**Full Source Code:**
+### Full Source Code:
 
 https://github.com/blender/blender
